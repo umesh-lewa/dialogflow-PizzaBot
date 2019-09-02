@@ -1,0 +1,9 @@
+{
+  "id": "0fbbdc97-9ad6-4efc-a6a1-34913de99c14",
+  "name": "timeOfBooking",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

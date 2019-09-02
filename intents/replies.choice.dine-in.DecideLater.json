@@ -1,0 +1,61 @@
+{
+  "id": "1f71be2a-52b7-41b5-aac9-f744b1b5e0fc",
+  "name": "replies.choice.dine-in.DecideLater",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Got it ! We\u0027ll keep the place warm until you arrive !",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Thank You ! Have a great Day !",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "Got it ! We\u0027ll keep the place warm until you arrive !"
+        },
+        {
+          "type": 3,
+          "platform": "skype",
+          "lang": "en",
+          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAeFBMVEX///8AAAAnJyf39/dXV1fHx8cfHx8vLy/v7++/v79fX18/Pz93d3efn59HR0e3t7ff39+np6fX19fo6Oh/f39nZ2cYGBiXl5dtbW0ODg4ICAjR0dFOTk7y8vKHh4fl5eU3NzewsLA6OjqSkpKlpaUjIyN6enpSUlL8KpQPAAAEkElEQVR4nO2a65aqOBCFA4hcRBBR5CIqrT2+/xtOdiUhoGD3TC+bs2ayfzSGXOojqaoEzmHMyMjIyMjIyMjIyMjIyIjkzCBt/RDn1gzK4wOZz+I5rAvFGQeY0T4nYGyNa2XPoAqW1+zI/y7Oczj+ecFNHxn8bzOHfcY23HTO+J/lPPYZW3LjBsAA/EEAaRiGxbqWdZsolDo0dCNLo/0pEJVbXcm3FOdGPbeq5y6hq39FqnfWqmmEBjXveQr8MYC1TI4fYqDe9lSg3IobK6QMp1cZMXZSaZXSWVNaFnHGVLnTTUuH+ZXs5TwDHFW7quUlt5evL7x8U4Wc0we9yhVjl84CHr1GZsUsiUzv9drWehi7fgLQe1J5Htiobjxrll2RD570KtO+DdD5uPLxDvy6Z8zWbWM9zZb12YwBrNuoEi0BEAckLNgVo56SEF19AjjqSgC0bYGeoSzyZUSiTwVAQk23cp0X15Ul4J4BtnLuGwIItbvC8ppf0TUggL2u9IiK7pa8WPDrQTjRWQDosw8AIvE8MDYGQOTuI4C4KXq2EwA0AvfRltYJLmCzCQAabz0BsKO6BwB0XGGBS2vpTAHg0bkbZuQE0gUmADBCMQFwpysAVimXOCmcyTlPDWsSR3SPdaUCwPpkygmkCxDAjTcNBgDYiFfjAIFwYh0FN+oZWQKBHkZHQdsDwNR7TDlBLmm6KFj1ATBLl7EoSJUva4BYTJ7MNpdsAHBUAG26tyyVs0AiXaAXhptvAAgtB3ngJJevFUPZmz7AVQEI2cCj0aH9AODzOzNAyuEJAPAiLpHXmcOHvtFgdwHQq+wAlmfWv5EqADS9+n0A+NTHFADi/TEK3Nz6i4nsVrKxKCC18kYhipkCeI4COfwTwAJjfTrPADwRVcidIh+MAIQw5ElLqVgPNg0gk9VzFGwq6UkjiQjPhxhNRvNAjZ47cSPTLjAOQB7mjoYhJhm7KZosfBIqEQNekl3FzAIg1JUiDClM5GnC7lyAfmbU1JEAhUtLhAAaywMrsQi93dDmPNuqK34MdkPP7fIAdmWv5wSZZiFVUX83LLMJAFoE93HL7w4dVrUdAKgtnwPQImw7J7DZAwAqOwA6OgwBTvJ6oJls9AGAjhfqZLNESvX1fMBRInFmwQiVAOBbhvKHQjetMpHSMf9iegYAze7u0t3kiEAMYk+qENFd7+JLeBXnw2RQ6UehWPs2TqWzBUd56GJZoZrGCTXx+CiubPaHnYoNgAGYC4CHbOV/3fYdQj4pKQNG8wBElEkpyS4XMwgLwA9cTv/t7deFI0S9nM/+knJ4U8zyqZifPotGucPZ/efCjm3jB3bc4F8M8NOvo3gPpwOIejP6bRkAA2AADMD/GSDbQPgma+MH9oKabmW/Yb2+v9g783v99Qg/06maNg9Vp6/H+ImS1+ah5K0AdHryVhOi091bD/lwvNKdrnfxVv9ON8DHg+JVA/n16W0SX7JfCJ9Adv9lACxB/uqf5PM3L0H9dRS+1wn735ym9NJJf67DF29y3jsXQOp7/zXHyMjIyMjIyMjIyMjIyOi7+hs1v0bQCO6jZAAAAABJRU5ErkJggg\u003d\u003d"
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "Thank You ! Have a great Day !"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

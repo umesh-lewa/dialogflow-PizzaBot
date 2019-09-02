@@ -1,0 +1,9 @@
+{
+  "id": "bff48e37-859f-4a61-8b24-f28bb3bafede",
+  "name": "typeOfCrust",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

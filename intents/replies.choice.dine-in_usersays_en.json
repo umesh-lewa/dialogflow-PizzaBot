@@ -1,0 +1,105 @@
+[
+  {
+    "id": "8a6ad794-5a93-4ca1-a0de-026f6b372d1f",
+    "data": [
+      {
+        "text": "dining please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ff571d99-6627-4964-842a-22ec4287a635",
+    "data": [
+      {
+        "text": "dine in please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da7e2a2c-fdde-4afe-a451-ad417c258047",
+    "data": [
+      {
+        "text": "i want to dine in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6a250f9-e810-47d3-ab09-05fb9b2046b8",
+    "data": [
+      {
+        "text": "I want to Dine-in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9c3ea33-ec8a-4365-a4b0-aaa6cbe754d9",
+    "data": [
+      {
+        "text": "i want to book a table for ",
+        "userDefined": false
+      },
+      {
+        "text": "3 people",
+        "alias": "noOfPeople",
+        "meta": "@noOfPeople",
+        "userDefined": false
+      },
+      {
+        "text": " by ",
+        "userDefined": false
+      },
+      {
+        "text": "6 PM",
+        "alias": "timeOfBooking",
+        "meta": "@timeOfBooking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eaf87e7f-756f-4224-a610-3fe36bf1b1c5",
+    "data": [
+      {
+        "text": "i would like a table for ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " people ",
+        "userDefined": false
+      },
+      {
+        "text": "at 8 PM",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

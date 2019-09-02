@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ca6e4abd-27e9-41cf-a6c4-b61241cfd1f0",
+    "data": [
+      {
+        "text": "Yes im thirsty !",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "17764a37-2114-4296-ab3f-4501cf2bdbb6",
+    "data": [
+      {
+        "text": "Yes I\u0027m Thristy !",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ffebc4a5-7ffd-4f5f-9421-1237b7765d24",
+    "data": [
+      {
+        "text": "i will also have a ",
+        "userDefined": false
+      },
+      {
+        "text": "medium",
+        "alias": "beverageSize",
+        "meta": "@beverageSize",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "iced",
+        "alias": "beverageType",
+        "meta": "@beverageType",
+        "userDefined": false
+      },
+      {
+        "text": " tea with my pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d2b17f3e-05d6-40db-bb5d-f73f09e71542",
+    "data": [
+      {
+        "text": "get me a ",
+        "userDefined": false
+      },
+      {
+        "text": "pepsi",
+        "alias": "beverageType",
+        "meta": "@beverageType",
+        "userDefined": false
+      },
+      {
+        "text": " too with that order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

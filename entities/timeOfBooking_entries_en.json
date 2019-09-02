@@ -1,0 +1,66 @@
+[
+  {
+    "value": "1 PM",
+    "synonyms": [
+      "1 PM",
+      "1 p.m."
+    ]
+  },
+  {
+    "value": "10 AM",
+    "synonyms": [
+      "10 AM",
+      "10 a.m."
+    ]
+  },
+  {
+    "value": "11 AM",
+    "synonyms": [
+      "11 AM",
+      "11 a.m."
+    ]
+  },
+  {
+    "value": "12 PM",
+    "synonyms": [
+      "12 PM",
+      "12 p.m."
+    ]
+  },
+  {
+    "value": "2 PM",
+    "synonyms": [
+      "2 PM",
+      "2 p.m."
+    ]
+  },
+  {
+    "value": "3 PM",
+    "synonyms": [
+      "3 PM",
+      "3 p.m."
+    ]
+  },
+  {
+    "value": "6 PM",
+    "synonyms": [
+      "6 PM",
+      "6 p.m."
+    ]
+  },
+  {
+    "value": "7 PM",
+    "synonyms": [
+      "7 PM",
+      "7 p.m."
+    ]
+  },
+  {
+    "value": "8 PM",
+    "synonyms": [
+      "8 PM",
+      "8 p.m.",
+      "8 uh mani"
+    ]
+  }
+]

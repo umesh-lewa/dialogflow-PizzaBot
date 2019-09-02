@@ -1,0 +1,155 @@
+{
+  "id": "06389b3d-450c-46df-9c10-dafd8fe822b1",
+  "name": "replies.choice.dine-in",
+  "auto": true,
+  "contexts": [
+    "awaiting_choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "70e80a42-0d76-4451-b9a6-9beae995d781",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "68ea80eb-4edd-4353-b238-443275c831fa",
+          "required": true,
+          "dataType": "@noOfPeople",
+          "name": "noOfPeople",
+          "value": "$noOfPeople",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many of you would be coming to eat our delicious Pizza ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b3bfbfa4-6b2e-4810-b004-159ffb37bb67",
+          "required": true,
+          "dataType": "@timeOfBooking",
+          "name": "timeOfBooking",
+          "value": "$timeOfBooking",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "At what time will you be coming in ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "A Table for $noOfPeople has been booked at $timeOfBooking !",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "We look forward to seeing you !",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Tables!",
+              "description": "",
+              "largeImage": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTUgzyJDu1yZhXbn-4uf0uAyEWQ-abUaVWiSpJ-iX-DlAZyFU8-5Q",
+                "accessibilityText": ""
+              },
+              "contentUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTUgzyJDu1yZhXbn-4uf0uAyEWQ-abUaVWiSpJ-iX-DlAZyFU8-5Q"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Place Order Now ?"
+            },
+            {
+              "title": "Place Order Now !"
+            },
+            {
+              "title": "No, Decide Later !"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "A Table for $noOfPeople has been booked at $timeOfBooking !"
+        },
+        {
+          "type": 3,
+          "platform": "skype",
+          "lang": "en",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcTUgzyJDu1yZhXbn-4uf0uAyEWQ-abUaVWiSpJ-iX-DlAZyFU8-5Q"
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "We look forward to seeing you !"
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Would you like to place your order now ?",
+          "replies": [
+            "Place Order Now !",
+            "No, Decide Later !"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

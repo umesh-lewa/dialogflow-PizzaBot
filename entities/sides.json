@@ -1,0 +1,9 @@
+{
+  "id": "e12b75b1-1cbb-4d01-a2d1-3ef69936fc50",
+  "name": "sides",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

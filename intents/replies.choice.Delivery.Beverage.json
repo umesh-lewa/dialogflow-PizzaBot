@@ -1,0 +1,112 @@
+{
+  "id": "c384bde2-f740-46ec-85de-495e6ac3d200",
+  "name": "replies.choice.Delivery.Beverage",
+  "auto": true,
+  "contexts": [
+    "pizza_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "072be4cb-9b79-4de9-9e06-b7ae476aae84",
+          "required": true,
+          "dataType": "@beverageType",
+          "name": "beverageType",
+          "value": "$beverageType",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of Beverage would you like ? We have Pepsi, Sprite, Fanta and Iced Tea !"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c29f200e-6ebe-425f-8206-b75b0bab01ce",
+          "required": true,
+          "dataType": "@beverageSize",
+          "name": "beverageSize",
+          "value": "$beverageSize",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size of beverage would you like ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "An Ice Cold Drink Has been added to your order !",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Any Sides ?"
+            },
+            {
+              "title": "Sides Please !"
+            },
+            {
+              "title": "No, I\u0027m Full !"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "skype",
+          "lang": "en",
+          "imageUrl": "https://images.all-free-download.com/images/graphiclarge/orange_background_beverage_icons_vector_280820.jpg"
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "An Ice Cold Drink Has been added to your order !"
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Do you want any sides?",
+          "replies": [
+            "Sides Please !",
+            "No, I\u0027m Full !"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

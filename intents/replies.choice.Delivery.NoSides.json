@@ -1,0 +1,63 @@
+{
+  "id": "63d1e11c-508d-4000-82b0-57feaac298c6",
+  "name": "replies.choice.Delivery.NoSides",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Got it ! Looks like you are on a diet !",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Confirm Order ?"
+            },
+            {
+              "title": "Yes ,Confirm Order !"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "Got it ! Looks like you are on a diet !"
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Whould you like to confirm the Order ?",
+          "replies": [
+            "Yes ,Confirm Order !"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

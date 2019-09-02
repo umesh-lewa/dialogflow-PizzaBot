@@ -1,0 +1,9 @@
+{
+  "id": "6e441366-79b6-4c05-af7b-fab57c5d5324",
+  "name": "beverageSize",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

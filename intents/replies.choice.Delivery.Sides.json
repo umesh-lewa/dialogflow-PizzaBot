@@ -1,0 +1,105 @@
+{
+  "id": "358f0efc-8e2a-4b12-b06b-6c7b45cd406a",
+  "name": "replies.choice.Delivery.Sides",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bdc25066-24ce-46d1-97b8-e42adb114d47",
+          "required": true,
+          "dataType": "@sides",
+          "name": "sides",
+          "value": "$sides",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What sides do you want? We have Pasta , Meat balls and Garlic Bread !"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Delecious Sides have been added to your Order !",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Added Sides !",
+              "description": "",
+              "largeImage": {
+                "url": "http://lovepizza.com/2016v1/wp-content/uploads/2016/02/icon3-1.png",
+                "accessibilityText": ""
+              },
+              "contentUrl": "http://lovepizza.com/2016v1/wp-content/uploads/2016/02/icon3-1.png"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Confirm ?"
+            },
+            {
+              "title": "Yes, Confirm !"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "skype",
+          "lang": "en",
+          "imageUrl": "http://lovepizza.com/2016v1/wp-content/uploads/2016/02/icon3-1.png"
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "Delecious Sides have been added to your Order !"
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Whould you like to confirm the Order ?",
+          "replies": [
+            "Yes ,Confirm Order !"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

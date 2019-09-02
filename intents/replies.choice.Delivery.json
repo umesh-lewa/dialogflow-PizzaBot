@@ -1,0 +1,144 @@
+{
+  "id": "4c0ea6aa-f373-4bfe-9c33-4cb48f18e907",
+  "name": "replies.choice.Delivery",
+  "auto": true,
+  "contexts": [
+    "awaiting_choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizza_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5501db41-106d-4f45-a892-2d043501c620",
+          "required": true,
+          "dataType": "@typeOfCrust",
+          "name": "typeOfCrust",
+          "value": "$typeOfCrust",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of crust would you prefer? We have thin crust, cheese crust and medium crust !"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4498222a-a893-4758-ab56-efca3dae03cb",
+          "required": false,
+          "dataType": "@topping",
+          "name": "topping",
+          "value": "$topping",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c9e40f77-1ee0-4ad6-90bc-9e3f2632c47a",
+          "required": true,
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size of pizza do you want? We have small, medium and large !"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "ceaf4290-aeb5-4be1-af03-4bff8a14bd73",
+          "required": false,
+          "dataType": "@topping",
+          "name": "topping1",
+          "value": "$topping1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Delicious Pizza has been added to your order !",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Any Drinks?"
+            },
+            {
+              "title": "Yes I\u0027m Thirsty!"
+            },
+            {
+              "title": "No I\u0027m Hydrated !"
+            }
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "skype",
+          "lang": "en",
+          "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5ed48562307283.5a8c3ca621c46.png"
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "Delicious Pizza has been added to your order !"
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Would like a Drink with that ?",
+          "replies": [
+            "Yes I\u0027m Thirsty!",
+            "No I\u0027m Hydrated !"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

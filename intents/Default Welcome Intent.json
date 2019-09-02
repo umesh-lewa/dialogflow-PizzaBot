@@ -1,0 +1,78 @@
+{
+  "id": "51d848a9-c00f-4169-a4b2-27723a013b59",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "awaiting_choice",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Welcome to PizzaBot\u0027s Pizzeria. Would you like to dine-in or have the food Delivered?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Choose an Option:"
+            },
+            {
+              "title": "I want to Dine-in"
+            },
+            {
+              "title": "I want Delivery"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "Welcome to PizzaBot\u0027s Pizzeria. Would you like to dine-in or have the food Delivered?"
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Choose an Option:",
+          "replies": [
+            "I want to Dine-in",
+            "I want Delivery"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Welcome to PizzaBot\u0027s Pizzeria. Would you like to dine-in or have the food Delivered?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

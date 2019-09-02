@@ -1,0 +1,154 @@
+[
+  {
+    "id": "503ad4e4-1c65-4cfb-a028-5cfa29ff1a5f",
+    "data": [
+      {
+        "text": "Place Order Now !",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "4c9d5541-d167-4961-8f17-80e4b9d18e89",
+    "data": [
+      {
+        "text": "I want Delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "23eab08d-e724-484d-a363-1c76f1a16611",
+    "data": [
+      {
+        "text": "Delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "486c966e-f0c3-4f17-b56a-89228449f829",
+    "data": [
+      {
+        "text": "please order me a ",
+        "userDefined": false
+      },
+      {
+        "text": "thin crust",
+        "alias": "typeOfCrust",
+        "meta": "@typeOfCrust",
+        "userDefined": false
+      },
+      {
+        "text": " pizza with lots of ",
+        "userDefined": false
+      },
+      {
+        "text": "onions",
+        "alias": "topping",
+        "meta": "@topping",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "capsicum",
+        "alias": "topping1",
+        "meta": "@topping",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "944b27e5-8741-4819-9029-35f0e4045e8a",
+    "data": [
+      {
+        "text": "I really hungry, can you get me a ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "alias": "size",
+        "meta": "@size",
+        "userDefined": false
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d3aa9f03-d0c6-410f-9a2d-34877e78462c",
+    "data": [
+      {
+        "text": "i want a ",
+        "userDefined": false
+      },
+      {
+        "text": "cheese crust",
+        "alias": "typeOfCrust",
+        "meta": "@typeOfCrust",
+        "userDefined": false
+      },
+      {
+        "text": " pizza with extra ",
+        "userDefined": false
+      },
+      {
+        "text": "cheese",
+        "alias": "topping",
+        "meta": "@topping",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05c45fa8-c297-4953-ae67-2a27cea2399b",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "thin crust",
+        "alias": "typeOfCrust",
+        "meta": "@typeOfCrust",
+        "userDefined": false
+      },
+      {
+        "text": " pizza with ",
+        "userDefined": false
+      },
+      {
+        "text": "onions",
+        "alias": "topping",
+        "meta": "@topping",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

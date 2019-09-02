@@ -1,0 +1,21 @@
+[
+  {
+    "value": "cheese crust",
+    "synonyms": [
+      "cheese crust"
+    ]
+  },
+  {
+    "value": "medium crust",
+    "synonyms": [
+      "medium crust"
+    ]
+  },
+  {
+    "value": "thin crust",
+    "synonyms": [
+      "thin crust",
+      "thin pizza"
+    ]
+  }
+]

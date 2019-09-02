@@ -1,0 +1,26 @@
+[
+  {
+    "value": "capsicum",
+    "synonyms": [
+      "capsicum"
+    ]
+  },
+  {
+    "value": "cheese",
+    "synonyms": [
+      "cheese"
+    ]
+  },
+  {
+    "value": "mushroom",
+    "synonyms": [
+      "mushroom"
+    ]
+  },
+  {
+    "value": "onion",
+    "synonyms": [
+      "onion"
+    ]
+  }
+]

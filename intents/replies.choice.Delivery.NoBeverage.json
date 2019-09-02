@@ -1,0 +1,75 @@
+{
+  "id": "b9870224-79ba-46f0-adfc-a2cc36f4be1f",
+  "name": "replies.choice.Delivery.NoBeverage",
+  "auto": true,
+  "contexts": [
+    "pizza_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "pizza_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Got it ! Looks like you don\u0027t require any drinks !",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Any sides ?"
+            },
+            {
+              "title": "Sides Please !"
+            },
+            {
+              "title": "No, I\u0027m Full !"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "skype",
+          "lang": "en",
+          "speech": "Got it ! Looks like you don\u0027t require any drinks !"
+        },
+        {
+          "type": 2,
+          "platform": "skype",
+          "lang": "en",
+          "title": "Whould you like some sides ?",
+          "replies": [
+            "Sides Please !",
+            "No, I\u0027m Full !"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
